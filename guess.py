@@ -1,6 +1,10 @@
 import random
+start = input('请决定随机数字范围开始值：')
+end = input('请决定随机数字范围结束值：')
+start = int(start)
+end = int(end)
 
-r = random.randiant(1,100)
+r = random.randiant(start,end)
 count = 0
 while True: 
 	count = count + 1# count += 1
